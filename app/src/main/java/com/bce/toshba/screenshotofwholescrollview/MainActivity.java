@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 if (bgDrawable != null)
                     bgDrawable.draw(canvas);
                 else
-                    canvas.drawColor(Color.WHITE);
+                    canvas.drawColor(Color.BLACK);
                 sv_take_ss.draw(canvas);
                 dialogTakeSSAndShare_iv_screenshot.setImageBitmap(bitmap);
                 dialogTakeSSAndShare.show();
