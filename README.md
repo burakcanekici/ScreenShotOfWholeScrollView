@@ -19,6 +19,9 @@ TAKE SCREENSHOT1 button. In dialog, in addition to these 3 images, rest area is 
 ```
 canvas.drawColor(Color.BLACK);
 ```
+
+![alt text](img1.png)
+
 To exceed this problem, we implemented as below;
 ```
 Bitmap bitmap = Bitmap.createBitmap(sv_take_ss.getChildAt(0).getWidth(), sv_take_ss.getChildAt(0).getHeight(), Bitmap.Config.ARGB_8888);
@@ -26,3 +29,5 @@ Canvas canvas = new Canvas(bitmap);
 ll_take_ss.draw(canvas);
 ```
 Now, dialog's content changed, when we clicked TAKE SCREENSHOT2 button;
+
+![alt text](img2.png)
